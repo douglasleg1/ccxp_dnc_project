@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center{
+    text-align: center;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: #FFD900;
+    height: 5rem;
+}
+
+    header img{
+        width: 10rem;
+        margin-left: 3rem;
+    }
+
+.container{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 40% 60%;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    background-color: #514988;
+    padding: 2rem;
+}
+
+#content h1{
+    color: #F3C61F;
+    padding-bottom: 1rem;
+    font-size: 3rem;
+}
+
+#content h3{
+    color: #FFF;
+    padding-bottom: 2rem;
+}
+
+#content p{
+    color: #FFF;
+    font-size: 1.6rem;
+}
+
+#deadline{
+display: flex;
+flex-direction: column;
+padding-top: 2rem;
+align-items: center;
+padding-right: 1rem;
+}
+
+#deadline h3{
+color: #E33881;
+margin-bottom: 1.2rem;
+}
+
+#deadline ul{
+    list-style-type: none;
+    font-size: 3rem;
+    margin-right: 2rem;
+}
+
+#deadline li{
+    display: inline;
+    color: #514988;
+    font-weight: 600;
+}
+
+#deadline video{
+    width: 98%;
+}
+
+footer{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 50% 50%;
+    padding: 2rem;
+}
+
+footer figure{
+    display: flex;
+}
+
+footer img{
+    width: 25%;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+footer img:hover{
+    opacity: 0.6;
+}
+
+footer p{
+    color: #F3C61F;
+    font-weight: 700;
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+}
+
+#button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer button{
+    background-color: #514988;
+    border-radius: 20px;
+    color: #fff;
+    width: 30rem;
+    height: 6rem;
+    border: 0;
+    font-size: 1.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition-duration: 0.4s
+}
+
+footer button:hover{
+    background-color: #F3C61F;
+    color: #463d81;
+}
